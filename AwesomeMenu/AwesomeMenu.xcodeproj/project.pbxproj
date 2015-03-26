@@ -14,6 +14,8 @@
 		180144151AC46C7C0081FED9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180144141AC46C7C0081FED9 /* Images.xcassets */; };
 		180144181AC46C7C0081FED9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180144161AC46C7C0081FED9 /* LaunchScreen.xib */; };
 		180144241AC46C7C0081FED9 /* AwesomeMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180144231AC46C7C0081FED9 /* AwesomeMenuTests.m */; };
+		180144321AC46CBA0081FED9 /* AwesomeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801442F1AC46CBA0081FED9 /* AwesomeMenu.m */; };
+		180144331AC46CBA0081FED9 /* AwesomeMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 180144311AC46CBA0081FED9 /* AwesomeMenuItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		1801441D1AC46C7C0081FED9 /* AwesomeMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		180144221AC46C7C0081FED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		180144231AC46C7C0081FED9 /* AwesomeMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwesomeMenuTests.m; sourceTree = "<group>"; };
+		1801442E1AC46CBA0081FED9 /* AwesomeMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeMenu.h; sourceTree = "<group>"; };
+		1801442F1AC46CBA0081FED9 /* AwesomeMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeMenu.m; sourceTree = "<group>"; };
+		180144301AC46CBA0081FED9 /* AwesomeMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeMenuItem.h; sourceTree = "<group>"; };
+		180144311AC46CBA0081FED9 /* AwesomeMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeMenuItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		180144061AC46C7C0081FED9 /* AwesomeMenu */ = {
 			isa = PBXGroup;
 			children = (
+				1801442D1AC46CBA0081FED9 /* AwesomeMenu */,
 				1801440B1AC46C7C0081FED9 /* AppDelegate.h */,
 				1801440C1AC46C7C0081FED9 /* AppDelegate.m */,
 				1801440E1AC46C7C0081FED9 /* ViewController.h */,
@@ -117,6 +124,18 @@
 				180144221AC46C7C0081FED9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1801442D1AC46CBA0081FED9 /* AwesomeMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1801442E1AC46CBA0081FED9 /* AwesomeMenu.h */,
+				1801442F1AC46CBA0081FED9 /* AwesomeMenu.m */,
+				180144301AC46CBA0081FED9 /* AwesomeMenuItem.h */,
+				180144311AC46CBA0081FED9 /* AwesomeMenuItem.m */,
+			);
+			name = AwesomeMenu;
+			path = "AwesomeMenu（环形菜单）";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +239,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				180144101AC46C7C0081FED9 /* ViewController.m in Sources */,
+				180144331AC46CBA0081FED9 /* AwesomeMenuItem.m in Sources */,
 				1801440D1AC46C7C0081FED9 /* AppDelegate.m in Sources */,
+				180144321AC46CBA0081FED9 /* AwesomeMenu.m in Sources */,
 				1801440A1AC46C7C0081FED9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
